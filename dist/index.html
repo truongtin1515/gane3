@@ -16,18 +16,15 @@
 <body>
     <div class="truongtin">
         <iframe src="
-        C:\Users\admin\Downloads\dktc.xlsx"></iframe>
+    C:\Users\admin\Downloads\dktc.xlsx"></iframe>
     </div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>\
+    <div class="truongtin">
+        <iframe src=
+        "C:\Users\admin\Downloads\MAUCDIO1 (3).docx"></iframe>
+    </div>
     <script>
         // Đọc nội dung toàn bộ file
 const workbook = XLSX.readFile(" C:\Users\admin\Downloads\dktc.xlsx");
-
-// Hoặc đọc một sheet cụ thể
-const worksheet = workbook.Sheets["Sheet1"];
-// Phân tích dữ liệu từ sheet và chuyển đổi thành đối tượng JSON
-const data = XLSX.utils.sheet_to_json(worksheet);
 
 // Hiển thị dữ liệu trên trang web
 const table = document.createElement("table");
